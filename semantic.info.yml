@@ -1,0 +1,27 @@
+name: Semantic
+type: theme
+base theme: false
+description: 'An accessible, clean D9+ theme using Semantic markup and daisyUI'
+package: Semantic
+core_version_requirement: ^9.4
+libraries:
+  - semantic/global
+features:
+  - favicon
+  - logo
+ckeditor_stylesheets:
+  - dist/css/global.css
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'

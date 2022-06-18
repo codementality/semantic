@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "styles:build": "npx tailwindcss -i ./source/input.css -o ./dist/css/styles.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "daisyui": "^2.15.4",
+    "tailwindcss": "^3.1.3"
+  }
+}

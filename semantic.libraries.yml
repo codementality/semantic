@@ -1,0 +1,14 @@
+global-styling:
+  version: 1.0
+  css:
+    base:
+      dist/css/styles.css: {}
+tailwind:
+  version: 
+  js:
+    //cdn.tailwindcss.com: { type: external, minified: true }
+daisyui:
+  version: 2.15.3
+  css:
+    base:
+      //cdn.jsdelivr.net/npm/daisyui@2.15.3/dist/full.css: { type: external, minified: true }
